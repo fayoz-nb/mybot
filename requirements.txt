@@ -2,4 +2,4 @@ aiogram==3.4.1
 aiohttp
 flask
 requests
-yt-dlp
+yt-dlp==2024.04.09
