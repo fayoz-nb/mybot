@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mybot
+    env: python
+    plan: free
+    buildCommand: "pip install --no-build-isolation -r requirements.txt"
+    startCommand: "python bot.py"
+    runtime: python3.10
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
